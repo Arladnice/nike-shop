@@ -18,7 +18,8 @@
     "paths": {
       "@/*": ["./*"],
       "@/utils/helpers": ["./src/utils/helpers"],
-      "@/utils/constants": ["./src/utils/constants"]
+      "@/utils/constants": ["./src/utils/constants"],
+      "@/api": ["./src/utils/constants"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
